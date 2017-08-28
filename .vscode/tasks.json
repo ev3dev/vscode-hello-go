@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "type": "shell",
+    "command": "go",
+    "options": {
+        "env": {
+            "GOOS": "linux",
+            "GOARCH": "arm",
+            "GOARM": "5"
+        },
+        "cwd": "${workspaceRoot}"
+    },
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "-o", "hello"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
