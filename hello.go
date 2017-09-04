@@ -25,7 +25,7 @@ func setCursor(on bool) {
 func setFont(name string) {
 	// use setfont command to change the font
 	// run `ls /usr/share/consolefonts` in a terminal to get a list of available fonts
-	exec.Command("setfont", name)
+	exec.Command("setfont", name).Run()
 }
 
 func main() {
