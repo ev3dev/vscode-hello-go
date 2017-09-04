@@ -8,11 +8,6 @@ import (
 	"time"
 )
 
-func resetConsole() {
-	// escape code that resets the console
-	fmt.Print("\x1Bc")
-}
-
 func setCursor(on bool) {
 	// use escape code to turn cursor on or off
 	if on {
@@ -33,7 +28,6 @@ func main() {
 	log.SetOutput(os.Stderr)
 
 	// configure the console
-	resetConsole()
 	setFont("Lat15-Terminus16")
 	setCursor(false)
 
