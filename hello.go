@@ -41,6 +41,6 @@ func main() {
 	fmt.Println("Hello EV3!")
 	log.Println("Hello VS Code!")
 
-	// give some time too look at the screen before the program exits
+	// give some time to look at the screen before the program exits
 	time.Sleep(time.Second * 5)
 }
