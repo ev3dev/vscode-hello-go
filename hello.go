@@ -28,7 +28,7 @@ func main() {
 	log.SetOutput(os.Stderr)
 
 	// configure the console
-	setFont("Lat15-Terminus16")
+	setFont("Lat15-Terminus32x16")
 	setCursor(false)
 
 	// print some messages
