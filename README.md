@@ -82,7 +82,7 @@ ev3dev in Visual Studio Code using the Go programming language.
 
     ![screenshot](.README/ev3-output.png)
 
-18. Open the source code file, `hello.go`, to learn more.
+18. Open the source code file, [hello.go](./hello.go), to learn more.
 
 
 [ev3dev]: http://www.ev3dev.org
