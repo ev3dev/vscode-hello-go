@@ -14,7 +14,7 @@
     },
     "tasks": [
         {
-            "taskName": "build",
+            "label": "build",
             "args": [
                 "-o", "hello"
             ],
