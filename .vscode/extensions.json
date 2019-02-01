@@ -4,6 +4,6 @@
 	"recommendations": [
 		// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
 		"ev3dev.ev3dev-browser",
-		"lukehoban.go"
+		"ms-vscode.go"
 	]
 }
